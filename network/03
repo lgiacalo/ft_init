@@ -1,0 +1,5 @@
+#!/bin/zsh
+ifconfig en1 | grep ether | cut -d " " -f2 
+
+# voir dans le fichier pour connaitre les noms des interfaces 
+#  NetworkInterfaces.plist
