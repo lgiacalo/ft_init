@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+netstat -rn | grep default | grep en0
+
+# nestat -nr | head -n 5 | tail -2

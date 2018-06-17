@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+host -t a slash16.org
+
+
