@@ -1,6 +1,7 @@
 #!/bin/zsh
-ifconfig | grep ": flags=" | cut -d ":" -f1
+ifconfig -l
 
 # Interfaces reseaux actives
 # ifconfig | grep "UP" | cut -d ":" -f1
 
+# ifconfig | grep ": flags=" | cut -d ":" -f1

@@ -1,4 +1,11 @@
 #!/bin/zsh
 ifconfig en0 
 
+# (a) Indiquer l'adresse de Broadcast
+# 	masque		: 0xffff0000
+# 	ip 			: a.b.c.d
+# 	broadcast	: a.b.255.255
 
+# (b) Indiquer toutes les adresses IP qui font partie du meme sous-reseau
+# 	c = [0, 255]
+# 	d = [0, 255]
