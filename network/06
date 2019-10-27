@@ -1,0 +1,13 @@
+# Récupérez le path complet du fichier dans lequel est écrit l’adresse IP du serveur 
+	DNS que vous utilisez
+
+find / -iname resolv.conf 2> /dev/null
+
+	/private/etc/resolv.conf
+	/private/var/run/resolv.conf
+-->	/etc/resolv.conf
+	/var/run/resolv.conf
+
+
+# Configuration DNS
+	scutil --dns

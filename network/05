@@ -1,5 +1,8 @@
 #!/bin/zsh
 
-host -t a slash16.org
+# Identifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org
+
+host -t A slash16.org
+# host -4 slash16.org
 
 
