@@ -12,6 +12,9 @@
 	- nslookup [domain] [server]
 	- scutil --dns
 	- host
+	- ping
+	- route
+	- traceroute
 
 ## See
 	- netstat =  Afficher les connexions reseau, les tables de routage, les statistiques des interfaces, les connexions masquees, et les membres multicast.  
