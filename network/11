@@ -1,0 +1,19 @@
+# Trouvez grâce au résultat de la commande précédente le nom et l’IP du matériel
+# 	qui fait le lien entre vous (réseau local) et l’extérieur
+
+Example : 
+input : route -n get slash16.org
+
+output : 
+	  route to: 143.204.222.8
+	destination: default
+	       mask: default
+	    gateway: 10.11.254.254
+	  interface: en0
+	      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING>
+	 recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+	       0         0         0         0         0         0      1500         0 
+	[Finished in 0.2s]
+
+
+### COLOR: 11 RED

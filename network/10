@@ -1,0 +1,9 @@
+#!/bin/zsh
+# Identifiez les différents appareils réseaux entre votre poste et le domaine slash16.org
+
+route -n get slash16.org
+
+
+### COLOR: 10 BLUE
+#TODO: a verifier !!
+
