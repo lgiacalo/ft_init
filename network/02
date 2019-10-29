@@ -9,3 +9,6 @@ ifconfig en0
 # (b) Indiquer toutes les adresses IP qui font partie du meme sous-reseau
 # 	c = [0, 255]
 # 	d = [0, 255]
+
+
+### COLOR: 02 BLUE

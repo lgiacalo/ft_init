@@ -8,3 +8,6 @@ ifconfig -l
 # ifconfig | grep "UP" | cut -d ":" -f1
 
 # ifconfig | grep ": flags=" | cut -d ":" -f1
+
+
+### COLOR: 01 BLUE

@@ -2,18 +2,31 @@
 # 	qui fait le lien entre vous (réseau local) et l’extérieur
 
 Example : 
-input : route -n get slash16.org
+input : traceroute -a slash16.org
 
 output : 
-	  route to: 143.204.222.8
-	destination: default
-	       mask: default
-	    gateway: 10.11.254.254
-	  interface: en0
-	      flags: <UP,GATEWAY,DONE,STATIC,PRCLONING>
-	 recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
-	       0         0         0         0         0         0      1500         0 
-	[Finished in 0.2s]
+
+	traceroute: Warning: slash16.org has multiple addresses; using 13.225.30.145
+	traceroute to slash16.org (13.225.30.145), 64 hops max, 52 byte packets
+	 1  [AS0] 10.11.254.254 (10.11.254.254)  0.833 ms  0.448 ms  0.371 ms
+	 2  [AS0] nat-1 (10.60.1.11)  0.142 ms  0.212 ms  0.157 ms
+	 3  [AS12876] dc3 (62.210.35.1)  1.576 ms  1.575 ms  1.693 ms
+	 4  [AS12876] 195.154.1.174 (195.154.1.174)  1.141 ms  1.171 ms  0.987 ms
+	 5  [AS12876] a9k2-45x-s44-2.dc3.poneytelecom.eu (195.154.1.106)  1.129 ms  1.023 ms  1.005 ms
+	 6  [AS57734] amazon-th2.par.franceix.net (37.49.236.118)  1.058 ms  0.966 ms  1.026 ms
+	 7  [AS16509] 52.93.16.36 (52.93.16.36)  2.481 ms
+	    [AS16509] 52.93.16.116 (52.93.16.116)  2.182 ms
+	    [AS16509] 52.93.16.68 (52.93.16.68)  2.169 ms
+	 8  [AS16509] 52.93.16.177 (52.93.16.177)  1.365 ms
+	    [AS16509] 52.93.16.187 (52.93.16.187)  1.267 ms
+	    [AS16509] 52.93.16.181 (52.93.16.181)  1.650 ms
+	 9  * * *
+	10  * * *
+	11  * * *
+	12  * * *
+	13  * * *
+	14  [AS0] server-13-225-30-145.cdg3.r.cloudfront.net (13.225.30.145)  1.283 ms  1.269 ms  1.332 ms
+	[Finished in 76.9s]
 
 
 ### COLOR: 11 RED

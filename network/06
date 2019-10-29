@@ -11,3 +11,5 @@ find / -iname resolv.conf 2> /dev/null
 
 # Configuration DNS
 	scutil --dns
+
+### COLOR: 06 RED

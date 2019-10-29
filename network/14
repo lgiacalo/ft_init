@@ -1,6 +1,11 @@
 # Quel est le fichier contenant les entrées locales DNS ?
 
+file : /private/etc/hosts
+	   /etc/hosts
 
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
 
 
 ### COLOR: 14 RED
