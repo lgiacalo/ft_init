@@ -1,4 +1,12 @@
 #!/bin/zsh
+# Quelle commande permet de lister les tables de partitions des disques ?
 
+
+fdisk -l
+
+# sfdisk
+# cfdisk
+# lsblk
 
 ### COLOR: 10 BLUE
+## TODO: a verifier en creaton une nouvelle partition

@@ -2,4 +2,9 @@
 # Quel fichier contient les clés RSA des machines autorisées à se connecter via SSH ?
 
 
+Le fichier known_hosts permet au client d'authentifier le serveur afin de vérifier qu'il ne se connecte pas à un imitateur. 
+Le fichier authorized_keys permet au serveur d'authentifier l'utilisateur.
+
+File : ~/.ssh/authorized_keys
+
 ### COLOR: 08 RED
