@@ -1,5 +1,14 @@
 #!/bin/zsh
 
+# Trouvez une commande qui, en parallèle de la session graphique, permet de se
+#	connecter en ssh sur la machine
 
+
+# ssh user@IP -p x (x = {1024, 65535}, par default x = 22)
+
+
+
+
+## TODO: Comment trouver l'ip de la vm ?? pour se connecter direct en ssh a la vm 
 
 ### COLOR: 17 BLUE

@@ -1,4 +1,10 @@
 #!/bin/zsh
 
+# Trouvez une commande qui permet, en temps réel, de trouver les processus en
+#	cours d’exécution
+
+
+ps -axjf
+#ps aux
 
 ### COLOR: 13 BLUE

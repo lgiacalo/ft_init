@@ -1,5 +1,11 @@
 #!/bin/zsh
 
+# Donnez une commande qui permet d’arrêter le service ssh
+
+
+service ssh stop
+
+
 
 
 ### COLOR: 18 BLUE
