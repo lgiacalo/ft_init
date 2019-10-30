@@ -69,3 +69,4 @@
 	Rouge:	une deduction ecrite
 
 #TODO: verifier nom des fichiers 01 ou 1
+#TODO: Tester les executables dans la vm directement
