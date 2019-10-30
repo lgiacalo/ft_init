@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Déterminez le PID du service SSHD
+
+
+pgrep -l sshd
+
+### COLOR: 07 BLUE

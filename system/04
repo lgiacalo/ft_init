@@ -1,0 +1,11 @@
+#!/bin/zsh
+# Quelle commande donne le temps depuis lequel votre système à été démarré la
+#	dernière fois ?
+
+## Commands : 
+	who -b
+	# last
+
+
+
+### COLOR: 04 BLUE

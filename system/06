@@ -1,0 +1,8 @@
+#!/bin/zsh
+# Donnez une commande pour redémarrer le service SSH
+
+
+# Usage : service ssh
+service ssh restart
+
+### COLOR: 06 BLUE

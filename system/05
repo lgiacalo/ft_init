@@ -1,0 +1,8 @@
+#!/bin/zsh
+# Donnez une commande qui détermine l’état du service SSH
+
+
+service ssh status | grep Active
+
+
+### COLOR: 05 BLUE

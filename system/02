@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Quelle commande permet de renommer votre système ?
+
+sudo hostname new_name
+
+
+### COLOR: 02 BLUE

@@ -1,0 +1,24 @@
+# Dans quel fichier se trouve la version installée de votre Debian ?
+
+## Commands
+
+	lsb_release -a
+	lsb_release -d
+	hostnamectl
+
+
+
+## La commande cat suivante affichera le contenu de /etc/issue qui contient un texte d'identification du système
+
+	cat /etc/issue
+
+
+## /etc/os-release est un fichier qui contient les données d'identification du système d'exploitation et ne peut être trouvé que sur les distributions Debian les plus récentes exécutant systemd.
+
+Cette méthode ne fonctionnera que si vous avez Debian 9 ou une version plus récente
+
+	cat /etc/os-release
+
+
+
+### COLOR: 01 RED

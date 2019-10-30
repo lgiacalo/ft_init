@@ -1,0 +1,9 @@
+# Quel est le fichier à modifier pour rendre cela permanent ?
+
+
+# file : 
+	- /etc/hostname: remplacer l'ancien nom par le nouveau
+	- /etc/hosts: pareil !
+
+
+### COLOR: 03 RED

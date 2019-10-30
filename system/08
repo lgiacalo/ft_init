@@ -1,0 +1,5 @@
+#!/bin/zsh
+# Quel fichier contient les clés RSA des machines autorisées à se connecter via SSH ?
+
+
+### COLOR: 08 RED
