@@ -1,0 +1,29 @@
+#!/bin/bash
+# Réalisez un script qui permet de supprimer un user LOGUÉ sur la machine
+
+
+read -p "User a supprimer: " name
+
+if [ "$name" == "" ]; then
+    echo "Retry !!"
+    exit
+fi
+
+
+passwd -l $name
+
+if [ $? != 0 ]
+then
+	echo "Retry !!"
+	exit
+else
+	pgrep -u $name
+	if [ $? == 0 ]
+	then
+		kill $(pgrep -u $name)
+	fi
+	userdel -r $name
+	crontab -r -u $name
+fi
+
+echo -e "\n" 'User: ' $name ' delete !'

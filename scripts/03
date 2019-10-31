@@ -1,0 +1,13 @@
+#!/bin/bash
+# Réalise un script de ton choix.
+
+read -p "User a ajouter: " name
+
+if [ "$name" == "" ]; then
+    echo "Retry !!"
+    exit
+fi
+
+useradd -m -p $name -s /bin/bash $name
+
+echo -e "\n" 'User: ' $name ' add !'

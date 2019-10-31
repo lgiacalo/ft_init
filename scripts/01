@@ -1,0 +1,5 @@
+#!/bin/zsh
+# Réalisez un script qui affiche seulement le login, le UID et le Path de chaques entrée du fichier /etc/passwd
+
+
+cat /etc/passwd | cut -d ":" -f1,3,6
