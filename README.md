@@ -68,6 +68,3 @@
 	Bleu :  une commande
 	Vert :	une sortie de commande
 	Rouge:	une deduction ecrite
-
-#TODO: verifier nom des fichiers 01 ou 1
-#TODO: Edit system zsh / bash
