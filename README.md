@@ -7,6 +7,7 @@
 	- 
 
 ## Commands
+	- arp -a
 	- networksetup -listallhardwareports
 	- netstat -nr
 	- nslookup [domain] [server]
@@ -69,4 +70,4 @@
 	Rouge:	une deduction ecrite
 
 #TODO: verifier nom des fichiers 01 ou 1
-#TODO: Tester les executables dans la vm directement
+#TODO: Edit system zsh / bash

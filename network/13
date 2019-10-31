@@ -3,6 +3,8 @@
 
 Example : 
 input : dig -x $(ifconfig en0 | grep "inet " | cut -d " " -f2)
+		nslookup $(ifconfig en0 | grep "inet " | cut -d " " -f2) | grep name | cut -d " " -f3
+		host $(ifconfig en0 | grep "inet " | cut -d " " -f2)
 
 output : 
 

@@ -3,7 +3,22 @@
 ## ping 42.fr
 	PING 42.fr (10.52.1.12)
 
+## nslookup 42.fr
+	Server:		10.51.1.42
+	Address:	10.51.1.42#53
 
+	Name:	42.fr
+	Address: 10.52.1.12
+	Name:	42.fr
+	Address: 10.52.1.11
+	Name:	42.fr
+	Address: 10.52.1.76
+
+## host -t A 42.fr
+	42.fr has address 10.52.1.76
+	42.fr has address 10.52.1.11
+	42.fr has address 10.52.1.12
+	
 
 
 ### COLOR: 09 GREEN

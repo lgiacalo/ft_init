@@ -5,8 +5,8 @@ find / -iname resolv.conf 2> /dev/null
 
 	/private/etc/resolv.conf
 	/private/var/run/resolv.conf
--->	/etc/resolv.conf
-	/var/run/resolv.conf
+-->	/var/run/resolv.conf
+	/etc/resolv.conf
 
 
 # Configuration DNS

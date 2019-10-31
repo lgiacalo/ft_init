@@ -29,5 +29,9 @@ output :
 	[Finished in 76.9s]
 
 
+Reponse:
+	2  [AS0] nat-1 (10.60.1.11)  0.142 ms  0.212 ms  0.157 ms --> NAT (Network address translation)
+
+La NAT dynamique permet à des machines connectées sur un réseau local à adressage privé d'accéder à Internet en utilisant l'adresse IP publique du routeur qui fait la liaison entre le réseau interne et Internet.
+
 ### COLOR: 11 RED
-#TODO: a verifier !! FAUX !!

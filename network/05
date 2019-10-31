@@ -2,8 +2,9 @@
 
 # Identifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org
 
-host -t A slash16.org
-# host -4 slash16.org
+dig slash16.org | grep SERVER
+
+# nslookup slash16.org | grep Server
 
 
 ### COLOR: 05 BLUE

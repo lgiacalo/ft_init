@@ -1,7 +1,7 @@
 # Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85
 
 
-Modification du fichier hosts : (readonly sur les macs)
+Modification du fichier /etc/hosts : (readonly sur les macs)
 
 	46.19.122.85	intra.42.fr
 
