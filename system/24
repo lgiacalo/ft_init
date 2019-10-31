@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Quelle commande permet de lister tout les packages INSTALLÉS sur la machine ?
 
  dpkg --list

@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Listez tout les utilisateurs réels de la machine
 

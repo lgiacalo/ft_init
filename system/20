@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Listez tout les utilisateurs existants sur la machine
 
 cat /etc/passwd | cut -d ":" -f1

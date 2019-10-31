@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Quelle commande permet d’afficher l’espace disponible et utilisé sur le système
 #	d’une manière humainement compréhensible ? ?

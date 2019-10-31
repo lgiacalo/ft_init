@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Donnez une commande qui détermine l’état du service SSH
 
 

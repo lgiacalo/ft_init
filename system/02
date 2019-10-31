@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Quelle commande permet de renommer votre système ?
 
 # hostname <new_name>
