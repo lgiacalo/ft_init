@@ -8,6 +8,6 @@ Il peut donc être arrêté, démarré ou redémarrer avec la commande :
 
 	/etc/init.d/cron start|stop|restart
 
-
+Commande : cron 
 
 ### COLOR: 16 RED

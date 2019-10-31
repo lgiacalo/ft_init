@@ -3,8 +3,9 @@
 # Trouvez une commande qui permet de tuer le processus de la commande en background
 
 
-kill $(ps | grep tail | cut -d " " -f1,2,3)
+pkill tail
 
+# kill $(ps | grep tail | cut -d " " -f1,2,3)
 
 
 

@@ -2,8 +2,8 @@
 # Quelle commande permet de savoir quelles personnes sont connectées sur le système ?
 
 w
-echo "\n"
-who
+
+# who -q
 
 
 ### COLOR: 09 BLUE

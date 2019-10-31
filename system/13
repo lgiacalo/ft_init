@@ -6,5 +6,6 @@
 
 ps -axjf
 #ps aux
+#top
 
 ### COLOR: 13 BLUE

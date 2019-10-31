@@ -1,5 +1,4 @@
 #!/bin/zsh
-
 # Trouvez une commande qui, en parallèle de la session graphique, permet de se
 #	connecter en ssh sur la machine
 
@@ -10,7 +9,5 @@
 ssh lena@127.0.0.1 -p 2223
 
 
-
-## TODO: Comment trouver l'ip de la vm ?? pour se connecter direct en ssh a la vm 
 
 ### COLOR: 17 BLUE

@@ -2,6 +2,7 @@
 # Quelle commande permet de lister tout les packages INSTALLÉS sur la machine ?
 
  dpkg --list
-
+ # dpkg --get-selections
+ # apt list --installed
 
 ### COLOR: 24 BLUE

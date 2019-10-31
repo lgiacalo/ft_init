@@ -1,10 +1,9 @@
 #!/bin/zsh
-# Quelle commande donne le temps depuis lequel votre système à été démarré la
-#	dernière fois ?
+# Quelle commande donne le temps depuis lequel votre système à été démarré la dernière fois ?
 
 ## Commands : 
 	who -b
-	# last
+	# last reboot
 
 
 

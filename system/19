@@ -2,7 +2,8 @@
 indiquez le nom donné à ce type de service
 
 
+# systemctl list-unit-files --type=service --state=enabled
 
-
+Ces services sont des daemons.
 
 ### COLOR: 19 GREEN

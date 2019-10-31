@@ -2,7 +2,8 @@
 # Donnez une commande qui détermine l’état du service SSH
 
 
-service ssh status | grep Active
+service ssh status 
+# systemctl status ssh
 
 
 ### COLOR: 05 BLUE

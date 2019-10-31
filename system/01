@@ -1,11 +1,14 @@
 # Dans quel fichier se trouve la version installée de votre Debian ?
 
+
+file : /etc/debian_version
+
+
 ## Commands
 
 	lsb_release -a
 	lsb_release -d
 	hostnamectl
-
 
 
 ## La commande cat suivante affichera le contenu de /etc/issue qui contient un texte d'identification du système

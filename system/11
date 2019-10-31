@@ -5,8 +5,8 @@
 
 
 df -h
-echo "\n"
-df -h .
+
+# df -h .
 
 
 ### COLOR: 11 BLUE

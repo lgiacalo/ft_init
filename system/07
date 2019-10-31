@@ -4,4 +4,6 @@
 
 pgrep -l sshd
 
+#pidof sshd
+
 ### COLOR: 07 BLUE

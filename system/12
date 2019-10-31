@@ -4,7 +4,7 @@
 #	compréhensible suivi du chemin de celui-ci.
 
 
-ls -ldh /var
+du -sh /var/*
 
 
 
