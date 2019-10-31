@@ -4,7 +4,7 @@
 
 cat /etc/passwd | grep -E "/bin/(bash|sh|zsh)" | cut -d ":" -f1
 
+# cat /etc/passwd | grep "/bin/.*sh$" | cut -d ":" -f1
 
 
-#TODO: root ? est il un user ??
 ### COLOR: 21 BLUE
