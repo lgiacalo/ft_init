@@ -1,3 +1,10 @@
+# Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session
+graphique et en session ssh)
+
+
+su - new_utilisateur
+ssh new_utilisateur@IP -p port
+	ssh new_utilisateur@127.0.0.1 -p 2223
 
 
 

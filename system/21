@@ -1,5 +1,9 @@
 #!/bin/zsh
 
+# Listez tout les utilisateurs réels de la machine
+
+cat /etc/passwd | grep -E "/bin/(bash|sh|zsh)" | cut -d ":" -f1
+
 
 
 ### COLOR: 21 BLUE

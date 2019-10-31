@@ -1,5 +1,7 @@
 #!/bin/zsh
+# Quelle commande permet de lister tout les packages INSTALLÉS sur la machine ?
 
+ dpkg --list
 
 
 ### COLOR: 24 BLUE

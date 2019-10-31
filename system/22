@@ -1,6 +1,8 @@
 #!/bin/zsh
 
+# Quelle commande permet d’ajouter un utilisateur local supplémentaire ?
 
+adduser new_utilisateur
 
 
 ### COLOR: 22 BLUE

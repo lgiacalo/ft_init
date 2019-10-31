@@ -5,7 +5,9 @@
 
 
 # ssh user@IP -p x (x = {1024, 65535}, par default x = 22)
+#	avec la configuration de la NAT pour la VM, x = 2223
 
+ssh lena@127.0.0.1 -p 2223
 
 
 
