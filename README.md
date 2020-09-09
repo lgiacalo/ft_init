@@ -1,10 +1,20 @@
-# ft_init
+# ft_init - 42 Project
 
-#######################################################################
+System and Network administrator initiation
+
+This first project, `init` will allow you to discover the basics commands of
+system and network, many services used on a server machines and some ideas of scripts that can be useful to the everyday life of an adminsys.
+
+----
+
+- [x] Network
+- [x] System
+- [x] Scripting
+
+---
 # Mac
 ## Files
 	- /etc/networks
-	- 
 
 ## Commands
 	- arp -a
@@ -26,34 +36,21 @@
 
 ## See
 	- netstat =  Afficher les connexions reseau, les tables de routage, les statistiques des interfaces, les connexions masquees, et les membres multicast.  
-	- 
 
-
-
-########################################################################
+---
 # Linux
-## Files
-	- 
-
-## Commands
-	- 
-
 ## See
 	- udev
 
 ## Install
 	- sudo apt-get install net-tools 
 		(echo "export PATH=$PATH:/sbin" >> .bashrc)
-	- 
 
-
-
-########################################################################
+---
 # Utils
 	- find / -iname resolv.conf 2> /dev/null
 
-
-########################################################################
+---
 # Regex 
 	.	= any char
 	\.	= the actual dot character
@@ -63,7 +60,7 @@
 
 
 
-########################################################################
+---
 # Instructions
 	Bleu :  une commande
 	Vert :	une sortie de commande
